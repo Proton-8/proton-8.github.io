@@ -79,7 +79,7 @@ h6 {
   bottom: 0;
   width: 300px;
   transition: all ease-in-out 0.5s;
-  z-index: 9997;
+  z-index: 10;
   transition: all 0.5s;
   padding: 0 15px;
   background: #040b14;
@@ -101,6 +101,8 @@ h6 {
   -moz-text-align-last: center;
   text-align-last: center;
   font-family: "Poppins", sans-serif;
+  z-index: 1;
+
 }
 
 #header .profile h1 a,
@@ -134,7 +136,7 @@ h6 {
   margin-left: 300px;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1090px) {
   #header {
     left: -300px;
   }
@@ -236,40 +238,47 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg.jpg")no-repeat center;
   background-size: cover;
+  border-radius:30px;
+  z-index: -1;
 }
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
+  background: rgba(3, 11, 22, 0.371);
   position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
+  margin: 100px 20px 50px 20px;
+ 
+  z-index: 10000;
 }
 
 #hero .hero-container {
-  position: relative;
-  z-index: 2;
+  position: center;
+  z-index: 1;
   min-width: 300px;
+  margin-top: 10%;
+  background-color: #111111b3;border-radius:30px;
+
+
+
 }
 
 #hero h1 {
-  margin: -10px 0 10px 0;
+  margin: 10px 20px 50px 20px;
   font-size: 64px;
-  font-weight: 700;
-  line-height: 56px;
+  font-weight: 800;
+  line-height: 12px;
   color: #fff;
+  
 }
 
 #hero p {
   color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
+  margin-left: 20px;
 }
 
 #hero p span {
@@ -1077,7 +1086,7 @@ section {
   left: 0;
   bottom: 0;
   width: 300px;
-  z-index: 9999;
+  z-index: 2;
   background: #040b14;
 }
 
