@@ -176,15 +176,21 @@ h6 {
   font-size: 15px;
 }
 .patents{
-  display:inline-flex;
+  background-color: #66e9f01f;
+  display: flex;
   align-items:center;
+}
+.Numbers{
+  display: flex-column;
+  margin-left:5%;
+  align-items:Start;
 }
 
 .nav-menu a i,
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #d8dfea;
 }
 
 .nav-menu a:hover,
@@ -476,10 +482,11 @@ section {
 --------------------------------------------------------------*/
 .resume .resume-title {
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 800;
   margin-top: 20px;
   margin-bottom: 20px;
   color: #050d18;
+  background-color: #b7b8c876;
 }
 
 .resume .resume-item {
