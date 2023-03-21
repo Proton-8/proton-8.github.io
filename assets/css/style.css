@@ -182,7 +182,7 @@ h6 {
 }
 .Numbers{
   display: flex-column;
-  margin-left:5%;
+  margin-left:2%;
   align-items:Start;
 }
 
@@ -258,7 +258,9 @@ h6 {
  
   z-index: 10000;
 }
-
+#container{
+  display: flex;
+}
 #hero .hero-container {
   position: center;
   z-index: 1;
@@ -369,7 +371,7 @@ section {
 }
 
 .about .content ul li {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   display: flex;
   align-items: center;
 }
@@ -443,13 +445,21 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
+skills .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
 }
-
+#skills{
+  display:flex;
+  
+  padding: 20px;
+}
+.skills .details{
+  /* display:flex; */
+  /* margin:auto; */
+}
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
