@@ -344,16 +344,17 @@ section {
 }
 
 .section-title p {
-  margin-bottom: 0;
+  margin-bottom: 1000;
 }
 
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about .content h3 {
-  font-weight: 700;
-  font-size: 26px;
+  font-weight: 800;
+  font-size: 24px;
   color: #173b6c;
+  display: flex;
 }
 
 .about .content ul {
