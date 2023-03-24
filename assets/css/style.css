@@ -593,6 +593,8 @@ skills .progress {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  background-color: #afc1e746;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.541);
 }
 
 .portfolio .portfolio-wrap::before {
@@ -653,6 +655,11 @@ skills .progress {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+.portfolio-item{
+  box-sizing: content-box;
+  text-align: center;
+  /* min-height: 320px; */
+}
 .portfolio-details {
   padding-top: 40px;
 }
@@ -871,37 +878,37 @@ skills .progress {
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: #66e9f010;
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.541);
 }
 
 .contact .info i {
   font-size: 20px;
   color: #149ddd;
   float: left;
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   background: #dff3fc;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 30px;
   transition: all 0.3s ease-in-out;
 }
 
 .contact .info h4 {
-  padding: 0 0 0 60px;
+  padding: 0px 0px 0px 60px;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: #010811;
 }
 
 .contact .info p {
-  padding: 0 0 10px 60px;
+  padding:  0px 0 10px 60px;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 16px;
   color: #173b6c;
 }
 
@@ -1106,6 +1113,7 @@ skills .progress {
   width: 300px;
   z-index: -1;
   background: #040b14;
+ 
 }
 
 #footer .copyright {
