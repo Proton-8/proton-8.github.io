@@ -260,6 +260,7 @@ h6 {
 }
 #container{
   display: flex;
+  justify-content: space-around;
 }
 #hero .hero-container {
   position: center;
