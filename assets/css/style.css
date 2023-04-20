@@ -243,7 +243,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   background: url("../img/hero-bg.jpg")no-repeat center;
   background-size: cover;
   border-radius:30px;
@@ -252,9 +252,9 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(3, 11, 22, 0.371);
+  background: rgba(3, 11, 22, 0.267);
   position: absolute;
-  margin: 100px 20px 50px 20px;
+  margin: 50px 20px 50px 20px;
  
   z-index: 10000;
 }
@@ -267,14 +267,15 @@ h6 {
   z-index: 1;
   min-width: 300px;
   margin-top: 10%;
-  background-color: #111111b3;border-radius:30px;
+  background-color: #111111e3;
+  border-radius:30px;
 
 
 
 }
 
 #hero h1 {
-  margin: 20px 30px 30px 30px;
+  margin: 30px 50px 30px 50px;
   font-size: 64px;
   font-weight: 800;
   line-height: 12px;
@@ -320,7 +321,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 10px 10px 20px 20px;
   overflow: hidden;
 }
 
@@ -336,7 +337,7 @@ section {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   position: relative;
   color: #173b6c;
 }
@@ -345,7 +346,7 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 320px;
   height: 3px;
   background: #149ddd;
   bottom: 0;
@@ -353,7 +354,7 @@ section {
 }
 
 .section-title p {
-  margin-bottom: 1000;
+  margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -364,6 +365,7 @@ section {
   font-size: 24px;
   color: #173b6c;
   display: flex;
+  padding-top: 10px;
 }
 
 .about .content ul {
@@ -495,7 +497,7 @@ skills .progress {
   font-size: 26px;
   font-weight: 800;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #050d18;
   background-color: #b7b8c876;
 }
@@ -520,7 +522,7 @@ skills .progress {
 .resume .resume-item h5 {
   font-size: 16px;
   background: #e4edf9;
-  padding: 5px 15px;
+  padding: 5px 5px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
@@ -546,7 +548,7 @@ skills .progress {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
+  background: #94a8ed;
   border: 2px solid #1f5297;
 }
 
@@ -795,18 +797,19 @@ skills .progress {
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
-  margin: 10px 0 5px 0;
+  font-style: italic;
+  margin: 10px 0 8px 0;
   color: #111;
 }
 
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
+  font-size: 16px;
   color: #999;
   margin: 0;
 }
@@ -838,7 +841,7 @@ skills .progress {
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.611);
 }
 
 .testimonials .testimonial-item p::after {
