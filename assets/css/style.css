@@ -661,7 +661,7 @@ skills .progress {
 .portfolio-item{
   box-sizing: content-box;
   text-align: center;
-  /* min-height: 320px; */
+  min-height: 320px;
 }
 .portfolio-details {
   padding-top: 40px;
