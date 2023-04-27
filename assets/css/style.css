@@ -555,7 +555,7 @@ skills .progress {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .portfolio #portfolio-flters {
@@ -616,7 +616,7 @@ skills .progress {
   opacity: 1;
   left: 0;
   right: 0;
-  bottom: -60px;
+  bottom: -100px;
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
@@ -660,19 +660,20 @@ skills .progress {
 .portfolio-item {
   box-sizing: content-box;
   text-align: center;
-  min-height: 320px;
+  /* min-height: 320px; */
 }
 .portfolio-details {
   padding-top: 40px;
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 50%;
+  height: 50%;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
-  position: relative;
+  position:absolute;
 }
 
 .portfolio-details
@@ -690,7 +691,7 @@ skills .progress {
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #0b3795;
 }
 
 .portfolio-details .portfolio-info {
