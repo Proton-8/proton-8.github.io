@@ -42,7 +42,7 @@ GIVEN a single-page application portfolio for a Web developer and Mechanical Eng
 
 
 <br/>
-Website Demo
+## Website Demo
 <img src="assets\img\Port Demo.gif "
 
 <br/>
